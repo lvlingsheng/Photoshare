@@ -5,6 +5,8 @@ use_frameworks!
 
 target 'Photoshare' do
     pod 'Parse'
+    pod 'TKSubmitTransition'
+    pod 'TextFieldEffects'
 end
 
 target 'PhotoshareTests' do

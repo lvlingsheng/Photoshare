@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '33F19A5A6764BE9DC5287B25'
+               BlueprintIdentifier = '1B440925A55669147384CA45'
                BlueprintName = 'Pods-Photoshare'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Photoshare.framework'>

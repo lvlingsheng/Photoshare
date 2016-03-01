@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A221B1AD50D65B4785EDB04 /* Pods_Photoshare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD21A803D6884E827F014680 /* Pods_Photoshare.framework */; };
 		5C08E9F41C8507C700665E3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08E9F31C8507C700665E3B /* LoginViewController.swift */; };
+		5C08E9F61C8576F000665E3B /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08E9F51C8576F000665E3B /* TimelineViewController.swift */; };
 		5C2C4EE81C84EF42000CDEA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C4EE71C84EF42000CDEA9 /* AppDelegate.swift */; };
 		5C2C4EEA1C84EF42000CDEA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C4EE91C84EF42000CDEA9 /* ViewController.swift */; };
 		5C2C4EED1C84EF42000CDEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2C4EEB1C84EF42000CDEA9 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		25F0F05147F5DF4E748731EF /* Pods-Photoshare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoshare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photoshare/Pods-Photoshare.debug.xcconfig"; sourceTree = "<group>"; };
 		5C08E9F31C8507C700665E3B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5C08E9F51C8576F000665E3B /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		5C2C4EE41C84EF41000CDEA9 /* Photoshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photoshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2C4EE71C84EF42000CDEA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C2C4EE91C84EF42000CDEA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				5C2C4EE71C84EF42000CDEA9 /* AppDelegate.swift */,
 				5C2C4EE91C84EF42000CDEA9 /* ViewController.swift */,
 				5C2C4EEB1C84EF42000CDEA9 /* Main.storyboard */,
+				5C08E9F51C8576F000665E3B /* TimelineViewController.swift */,
 				5C08E9F31C8507C700665E3B /* LoginViewController.swift */,
 				5C2C4EF11C84EF42000CDEA9 /* Assets.xcassets */,
 				5C2C4EF31C84EF42000CDEA9 /* LaunchScreen.storyboard */,
@@ -282,6 +285,7 @@
 				5C2C4EEA1C84EF42000CDEA9 /* ViewController.swift in Sources */,
 				5C2C4EF01C84EF42000CDEA9 /* Photoshare.xcdatamodeld in Sources */,
 				5C2C4EE81C84EF42000CDEA9 /* AppDelegate.swift in Sources */,
+				5C08E9F61C8576F000665E3B /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
