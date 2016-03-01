@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import Parse
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Parse.initializeWithConfiguration(
+            ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "Photoshare"
+                configuration.clientKey = "Photoshare"
+                configuration.server = "https://ancient-forest-73282.herokuapp.com/parse"
+            })
+        )
+        
         return true
     }
 
