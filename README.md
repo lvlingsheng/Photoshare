@@ -2,7 +2,7 @@
 
 Photoshare is a photo sharing app using Parse as its backend.
 
-Time spent: **X** hours spent in total
+Time spent: 15 hours spent in total
 
 ## User Stories
 
@@ -35,7 +35,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/jsX754C.gif?1' title='Video Walkthrough' width='' alt='Test' />
+<img src='http://i.imgur.com/KJv8DZq.gif?1' title='Video Walkthrough' width='' alt='Test' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
