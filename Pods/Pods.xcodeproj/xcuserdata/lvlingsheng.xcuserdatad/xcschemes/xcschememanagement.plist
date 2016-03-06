@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyDrop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TKSubmitTransition.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +37,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3DECA5E31DED6B9B2CD082DA4F69EF30</key>
+		<key>2C05DA669F889274FCA442690BDA93B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E98989FA66DD95B83885AE651A909DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9D925BBA3AA790B533EBE8DF6F7CF9FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0F2F6A838C9C210193E287CEF4C60A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,17 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BA1FB0006BF58289429A9A188286D732</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>BCA053B6430690326435042FEB61B458</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CC6CEC99DC3F626E1C3958DC01601486</key>
 		<dict>
 			<key>primary</key>
 			<true/>

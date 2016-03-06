@@ -9,6 +9,8 @@
 import UIKit
 import Parse
 import TKSubmitTransition
+import SwiftyDrop
+import Foundation
 
 class LoginViewController: UIViewController, UIViewControllerTransitioningDelegate {
 
@@ -17,13 +19,13 @@ class LoginViewController: UIViewController, UIViewControllerTransitioningDelega
     
     var btn: TKTransitionSubmitButton!
     var btn2: TKTransitionSubmitButton!
-    @IBOutlet weak var btnFromNib: TKTransitionSubmitButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         btn = TKTransitionSubmitButton(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width - 100, height: 44))
         
         btn.center = CGPoint(x: self.view.bounds.width / 2,
-            y: self.view.bounds.height-180)
+            y: self.view.bounds.height-160)
         //btn.center = self.view.center
         //btn.bottom = self.view.frame.height - 60
         btn.setTitle("Sign in", forState: .Normal)
@@ -46,6 +48,11 @@ class LoginViewController: UIViewController, UIViewControllerTransitioningDelega
         //self.view.bringSubviewToFront(self.btnFromNib)
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        btn.hidden = false
+        btn2.hidden = false
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -57,8 +64,10 @@ class LoginViewController: UIViewController, UIViewControllerTransitioningDelega
     }
     
     func didFinishYourLoading() {
-        btn.startFinishAnimation(1, completion: { () -> () in
+        self.btn2.hidden = true
+        btn.startFinishAnimation(0.6, completion: { () -> () in
             let secondVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("TimelineViewController")
+            
             secondVC.transitioningDelegate = self
             
             self.presentViewController(secondVC, animated: true, completion: nil)
@@ -70,11 +79,17 @@ class LoginViewController: UIViewController, UIViewControllerTransitioningDelega
         didStartYourLoading()
         PFUser.logInWithUsernameInBackground(usernameField.text!, password: passwordField.text!) { (user:PFUser?, error:NSError?) -> Void in
             if(user != nil){
+                
                 print("you are logged in")
                 self.didFinishYourLoading()
+                NSTimer.schedule(delay: 1) { timer in
+                    Drop.down("Sign in successfully", state: .Success, duration: 4, action: nil)
+                }
+                
                 
             }else{
                 button.failedAnimation(0, completion: nil)
+                Drop.down("\(error!.localizedDescription)", state: .Warning, duration: 4, action: nil)
             }
         }
     }
@@ -90,15 +105,19 @@ class LoginViewController: UIViewController, UIViewControllerTransitioningDelega
         newUser.signUpInBackgroundWithBlock { (success:Bool, error:NSError?) -> Void in
             if(success){
                 print("created new user")
-                self.btn2.startFinishAnimation(1, completion: { () -> () in
+                self.btn.hidden = true
+                self.btn2.startFinishAnimation(0.6, completion: { () -> () in
+                    
+                    
                     let secondVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("TimelineViewController")
                     secondVC.transitioningDelegate = self
-                    
+                    Drop.down("Sign up successfully", state: .Success, duration: 4, action: nil)
                     self.presentViewController(secondVC, animated: true, completion: nil)
                 })
             }else{
                 print(error?.localizedDescription)
                 button.failedAnimation(0, completion: nil)
+                Drop.down("\(error!.localizedDescription)", state: .Warning, duration: 4, action: nil)
             }
         }
     }
@@ -120,3 +139,5 @@ class LoginViewController: UIViewController, UIViewControllerTransitioningDelega
     }
 
 }
+
+

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9C7B73257D9992B77392677A'
-               BlueprintName = 'TextFieldEffects'
+               BlueprintIdentifier = 'D955B95B5AEAB7FB40E11742'
+               BlueprintName = 'SwiftyDrop'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'TextFieldEffects.framework'>
+               BuildableName = 'SwiftyDrop.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

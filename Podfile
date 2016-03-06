@@ -7,6 +7,7 @@ target 'Photoshare' do
     pod 'Parse'
     pod 'TKSubmitTransition'
     pod 'TextFieldEffects'
+    pod 'SwiftyDrop'
 end
 
 target 'PhotoshareTests' do

@@ -10,6 +10,13 @@
 		0A221B1AD50D65B4785EDB04 /* Pods_Photoshare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD21A803D6884E827F014680 /* Pods_Photoshare.framework */; };
 		5C08E9F41C8507C700665E3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08E9F31C8507C700665E3B /* LoginViewController.swift */; };
 		5C08E9F61C8576F000665E3B /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08E9F51C8576F000665E3B /* TimelineViewController.swift */; };
+		5C08E9F81C86237F00665E3B /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08E9F71C86237F00665E3B /* NSTimerEx.swift */; };
+		5C08E9FA1C86530200665E3B /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C08E9F91C86530200665E3B /* Logo.png */; };
+		5C08E9FE1C8678E300665E3B /* UserMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08E9FD1C8678E300665E3B /* UserMedia.swift */; };
+		5C08EA001C867B8800665E3B /* captionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08E9FF1C867B8800665E3B /* captionViewController.swift */; };
+		5C08EA021C87E36C00665E3B /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08EA011C87E36B00665E3B /* PhotoCell.swift */; };
+		5C08EA041C88EC5E00665E3B /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C08EA031C88EC5E00665E3B /* avatar.jpg */; };
+		5C08EA061C893C3E00665E3B /* Userprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08EA051C893C3E00665E3B /* Userprofile.swift */; };
 		5C2C4EE81C84EF42000CDEA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C4EE71C84EF42000CDEA9 /* AppDelegate.swift */; };
 		5C2C4EEA1C84EF42000CDEA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C4EE91C84EF42000CDEA9 /* ViewController.swift */; };
 		5C2C4EED1C84EF42000CDEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2C4EEB1C84EF42000CDEA9 /* Main.storyboard */; };
@@ -17,6 +24,7 @@
 		5C2C4EF21C84EF42000CDEA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2C4EF11C84EF42000CDEA9 /* Assets.xcassets */; };
 		5C2C4EF51C84EF42000CDEA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2C4EF31C84EF42000CDEA9 /* LaunchScreen.storyboard */; };
 		5C2C4F001C84EF42000CDEA9 /* PhotoshareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C4EFF1C84EF42000CDEA9 /* PhotoshareTests.swift */; };
+		5C6BF4471C8B91210072B2E7 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BF4461C8B91210072B2E7 /* UIViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,13 @@
 		25F0F05147F5DF4E748731EF /* Pods-Photoshare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoshare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photoshare/Pods-Photoshare.debug.xcconfig"; sourceTree = "<group>"; };
 		5C08E9F31C8507C700665E3B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5C08E9F51C8576F000665E3B /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		5C08E9F71C86237F00665E3B /* NSTimerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerEx.swift; sourceTree = "<group>"; };
+		5C08E9F91C86530200665E3B /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		5C08E9FD1C8678E300665E3B /* UserMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMedia.swift; sourceTree = "<group>"; };
+		5C08E9FF1C867B8800665E3B /* captionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = captionViewController.swift; sourceTree = "<group>"; };
+		5C08EA011C87E36B00665E3B /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		5C08EA031C88EC5E00665E3B /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		5C08EA051C893C3E00665E3B /* Userprofile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Userprofile.swift; sourceTree = "<group>"; };
 		5C2C4EE41C84EF41000CDEA9 /* Photoshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photoshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2C4EE71C84EF42000CDEA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C2C4EE91C84EF42000CDEA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +59,7 @@
 		5C2C4EFB1C84EF42000CDEA9 /* PhotoshareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoshareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2C4EFF1C84EF42000CDEA9 /* PhotoshareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoshareTests.swift; sourceTree = "<group>"; };
 		5C2C4F011C84EF42000CDEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6BF4461C8B91210072B2E7 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		60AEC5B431AA91FD1636993E /* Pods-Photoshare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoshare.release.xcconfig"; path = "Pods/Target Support Files/Pods-Photoshare/Pods-Photoshare.release.xcconfig"; sourceTree = "<group>"; };
 		DD21A803D6884E827F014680 /* Pods_Photoshare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photoshare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,12 +109,20 @@
 				5C2C4EE71C84EF42000CDEA9 /* AppDelegate.swift */,
 				5C2C4EE91C84EF42000CDEA9 /* ViewController.swift */,
 				5C2C4EEB1C84EF42000CDEA9 /* Main.storyboard */,
+				5C08EA011C87E36B00665E3B /* PhotoCell.swift */,
+				5C08E9FF1C867B8800665E3B /* captionViewController.swift */,
+				5C08E9F91C86530200665E3B /* Logo.png */,
+				5C08EA031C88EC5E00665E3B /* avatar.jpg */,
 				5C08E9F51C8576F000665E3B /* TimelineViewController.swift */,
+				5C6BF4461C8B91210072B2E7 /* UIViewExtensions.swift */,
 				5C08E9F31C8507C700665E3B /* LoginViewController.swift */,
+				5C08E9F71C86237F00665E3B /* NSTimerEx.swift */,
 				5C2C4EF11C84EF42000CDEA9 /* Assets.xcassets */,
 				5C2C4EF31C84EF42000CDEA9 /* LaunchScreen.storyboard */,
 				5C2C4EF61C84EF42000CDEA9 /* Info.plist */,
 				5C2C4EEE1C84EF42000CDEA9 /* Photoshare.xcdatamodeld */,
+				5C08E9FD1C8678E300665E3B /* UserMedia.swift */,
+				5C08EA051C893C3E00665E3B /* Userprofile.swift */,
 			);
 			path = Photoshare;
 			sourceTree = "<group>";
@@ -213,6 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C08E9FA1C86530200665E3B /* Logo.png in Resources */,
+				5C08EA041C88EC5E00665E3B /* avatar.jpg in Resources */,
 				5C2C4EF51C84EF42000CDEA9 /* LaunchScreen.storyboard in Resources */,
 				5C2C4EF21C84EF42000CDEA9 /* Assets.xcassets in Resources */,
 				5C2C4EED1C84EF42000CDEA9 /* Main.storyboard in Resources */,
@@ -281,11 +307,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6BF4471C8B91210072B2E7 /* UIViewExtensions.swift in Sources */,
 				5C08E9F41C8507C700665E3B /* LoginViewController.swift in Sources */,
+				5C08EA021C87E36C00665E3B /* PhotoCell.swift in Sources */,
+				5C08E9F81C86237F00665E3B /* NSTimerEx.swift in Sources */,
 				5C2C4EEA1C84EF42000CDEA9 /* ViewController.swift in Sources */,
+				5C08EA001C867B8800665E3B /* captionViewController.swift in Sources */,
 				5C2C4EF01C84EF42000CDEA9 /* Photoshare.xcdatamodeld in Sources */,
+				5C08EA061C893C3E00665E3B /* Userprofile.swift in Sources */,
 				5C2C4EE81C84EF42000CDEA9 /* AppDelegate.swift in Sources */,
 				5C08E9F61C8576F000665E3B /* TimelineViewController.swift in Sources */,
+				5C08E9FE1C8678E300665E3B /* UserMedia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

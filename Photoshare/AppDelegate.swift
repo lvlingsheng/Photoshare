@@ -17,6 +17,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "userDidLogout", name: userDidLogoutNotification, object: nil)
+        Parse.initializeWithConfiguration(
+            ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "Photoshare"
+                configuration.clientKey = "Photoshare"
+                configuration.server = "https://ancient-forest-73282.herokuapp.com/parse"
+            })
+        )
+        // check if user is logged in.
+        if PFUser.currentUser() != nil {
+            // if there is a logged in user then load the home view controller
+            print("alreay log in")
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("TimelineViewController") as UIViewController
+            window?.rootViewController=vc
+
+        }
+
+        
+        return true
+    }
+    
+    func userDidLogout(){
+        var vc = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()! as UIViewController
+        window?.rootViewController=vc
         Parse.initializeWithConfiguration(
             ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
                 configuration.applicationId = "Photoshare"
@@ -25,7 +50,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
         )
         
-        return true
     }
 
     func applicationWillResignActive(application: UIApplication) {
