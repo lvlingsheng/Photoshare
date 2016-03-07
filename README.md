@@ -35,8 +35,8 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/g7lkPQK.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-![](https://github.com/changechenyu/ShakeToFresh/blob/master/app/src/main/res/drawable/shake.gif)
+
+![](https://github.com/lvlingsheng/Photoshare/blob/master/instagram.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
